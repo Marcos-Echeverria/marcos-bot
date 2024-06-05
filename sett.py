@@ -1,0 +1,5 @@
+token = 'marcosbot'
+
+whatsapp_token = 'EAAQUuT7aOlABO84WFXsK4BQEZCe0tjYFTKTrgKzeiY42RIOF6ydaTABucooYlwiyJFuZATGfTAq45MLHjPwwGVFiDnoZAVQpFRPrmAQfMuNiXih7a9lKIosAaLjJIFLvPkJUZAa9qQmVMa9ooWnRBv7K1R2P4yrXUXSLRyogniAdSdif0rqd1vJmoxKdvQhh'
+
+whatsapp_url =  'https://graph.facebook.com/v19.0/306287095907714/messages'
