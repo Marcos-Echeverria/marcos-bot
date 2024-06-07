@@ -13,7 +13,6 @@ def obtener_Mensaje_whatsapp(message):
 
     return text
 
-
 def enviar_Mensaje_whatsapp(data):
     try:
         whatsapp_token = sett.whatsapp_token
@@ -26,10 +25,15 @@ def enviar_Mensaje_whatsapp(data):
                                  data=data)
 
         if response.status_code == 200:
-            return 'mensaje enviado', 200
+            print('Mensaje enviado correctamente')
+            print(response.text)
         else:
-            return 'error al enviar mensaje', response.status_code
+            print('Error al enviar mensaje')
+            print(response.text)
+
+        return 'mensaje enviado', 200
     except Exception as e:
+        print('Error en la solicitud:', str(e))
         return e, 403
 
 
